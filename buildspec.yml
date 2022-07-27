@@ -14,8 +14,7 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - mv target/ROOT.war .
 artifacts:
   type: 'zip'
   files:
-      - ROOT.war
+      - target/ROOT.war
